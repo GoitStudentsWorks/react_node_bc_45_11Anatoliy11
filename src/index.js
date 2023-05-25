@@ -14,7 +14,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <Provider store={store}>
         <PersistGate loading={null} persistor={persistor}>
-            <BrowserRouter basename="/SoYummy-project">
+            <BrowserRouter basename="/react_node_bc_45_11Anatoliy11">
                 <HelmetProvider>
                     <App />
                 </HelmetProvider>
